@@ -1,3 +1,37 @@
+# ⛽ Real-Time Cross-Chain Gas Tracker
+
+A real-time Web3 dashboard that monitors gas fees across **Ethereum**, **Polygon**, and **Arbitrum** using public RPC endpoints — no third-party APIs used.
+
+## 🚀 Features
+
+- 🔄 Live gas tracking (base + priority fees)
+- 📊 Candlestick chart of gas history
+- 💰 ETH/USD simulation using Uniswap V3 pricing
+- 🧠 Built with Zustand, Ethers.js, and modern React (Vite)
+
+
+
+## 🛠️ Tech Stack
+
+- React (with Vite)
+- Zustand for global state
+- Ethers.js for RPC interaction
+- Tailwind CSS for UI styling
+- Uniswap V3 price fetching
+
+## 🧪 How to Run Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/gas-tracker-app.git
+cd gas-tracker-app
+
+# Install dependencies
+npm install
+
+# Run the dev server
+npm run dev
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
